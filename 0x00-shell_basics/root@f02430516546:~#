@@ -1,0 +1,149 @@
+
+t@f02430516546:~/alx-system_engineering-devops# ls
+0x00-shell_basics
+root@f02430516546:~/alx-system_engineering-devops# echo "My Read me file" > README.md
+root@f02430516546:~/alx-system_engineering-devops# ls
+0x00-shell_basics  README.md
+root@f02430516546:~/alx-system_engineering-devops# cd 0x00-shell_basics
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# ls
+0-current_working_directory
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# echo "Commands solution" > README.md
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# ls
+0-current_working_directory  README.md
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# cd ..
+root@f02430516546:~/alx-system_engineering-devops# ls
+0x00-shell_basics  README.md
+root@f02430516546:~/alx-system_engineering-devops# git add .
+root@f02430516546:~/alx-system_engineering-devops# git commit -m "Completed Task 0"
+[master 6d5286b] Completed Task 0
+ 2 files changed, 2 insertions(+)
+ create mode 100644 0x00-shell_basics/README.md
+ create mode 100644 README.md
+root@f02430516546:~/alx-system_engineering-devops# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 455 bytes | 455.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/boukarman/alx-system_engineering-devops.git
+   98aadc7..6d5286b  master -> master
+root@f02430516546:~/alx-system_engineering-devops# cd 0x00-shell_basics
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# vi 1-listit
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 1-listit
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "Completed task1"
+[master 3f8fa30] Completed task1
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x00-shell_basics/1-listit
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 453 bytes | 453.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/boukarman/alx-system_engineering-devops.git
+   6d5286b..3f8fa30  master -> master
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# vi 2-bring_me_home
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# vi 2-bring_me_home
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 2-bring_me_home
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "Completed task2"
+[master f9586c7] Completed task2
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x00-shell_basics/2-bring_me_home
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 490 bytes | 490.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/boukarman/alx-system_engineering-devops.git
+   3f8fa30..f9586c7  master -> master
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# vi 3-listfiles
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 3-listfiles
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "Completed task3"
+[master 1a38931] Completed task3
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x00-shell_basics/3-listfiles
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 398 bytes | 398.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/boukarman/alx-system_engineering-devops.git
+   f9586c7..1a38931  master -> master
+root@f02430516546:~/alx-system_engineert@f02430516546:~/alx-system_engineering-devops# ls
+0x00-shell_basics
+root@f02430516546:~/alx-system_engineering-devops# echo "My Read me file" > README.md
+root@f02430516546:~/alx-system_engineering-devops# ls
+0x00-shell_basics  README.md
+root@f02430516546:~/alx-system_engineering-devops# cd 0x00-shell_basics
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# ls
+0-current_working_directory
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# echo "Commands solution" > README.md
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# ls
+0-current_working_directory  README.md
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# cd ..
+root@f02430516546:~/alx-system_engineering-devops# ls
+0x00-shell_basics  README.md
+root@f02430516546:~/alx-system_engineering-devops# git add .
+root@f02430516546:~/alx-system_engineering-devops# git commit -m "Completed Task 0"
+[master 6d5286b] Completed Task 0
+ 2 files changed, 2 insertions(+)
+ create mode 100644 0x00-shell_basics/README.md
+ create mode 100644 README.md
+root@f02430516546:~/alx-system_engineering-devops# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 455 bytes | 455.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/boukarman/alx-system_engineering-devops.git
+   98aadc7..6d5286b  master -> master
+root@f02430516546:~/alx-system_engineering-devops# cdell_basics
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# vi 1-listit
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 1-listit
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "Completed task1"
+[master 3f8fa30] Completed task1
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x00-shell_basics/1-listit
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 453 bytes | 453.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/boukarman/alx-system_engineering-devops.git
+   6d5286b..3f8fa30  master -> master
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# vi 2-bring_me_home
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# vi 2-bring_me_home
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 2-bring_me_home
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "Completed task2"
+[master f9586c7] Completed task2
+ 1 file changed, 2 insertions(+)
+ create mode 100755 0x00-shell_basics/2-bring_me_home
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 490 bytes | 490.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/boukarman/alx-system_engineering-devops.git
+   3f8fa30..f9586c7  master -> master
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# vi 3-listfiles
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# chmod u+x 3-listfiles
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git add .
+root@f02430516546:~/alx-system_engineering-devops/0x00-shell_basics# git commit -m "Completed task3"
+[master 1a38931] Cgineering-devops/0x0
