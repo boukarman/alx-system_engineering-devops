@@ -1,2 +1,2 @@
-#!/bin/bash 
-find . ../ /boot -name ".*" -type f
+#!/bin/bash
+ls -la . ../ /boot
