@@ -1,2 +1,2 @@
-#!/bin/basfind 
+#!/bin/bash 
 find . ../ /boot -name ".*" -type f
